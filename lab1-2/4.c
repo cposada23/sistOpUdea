@@ -5,7 +5,7 @@ int main(){
     //short edad; preguntar??
     int edad, meses;
     system("clear");
-    printf("Ingrese su edad en años: ");
+    printf("Ingrese su edad en años: "); 
     scanf("%d" , &edad);
     meses = edad *12;
     printf("--------------------------------------------------\n");

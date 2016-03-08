@@ -1,6 +1,25 @@
 #include <stdio.h>
 int main()
 {
+	
+	char nombres [4][20];
+	float estaturas[4];
+	int i;
+	for ( i = 0; i < 4; i++) {
+		printf("\n Ingrese el nombre del paciente #%d: ", i+1);
+		scanf("%s", nombres[i]);
+		printf("\n Ingrese la estatura del paciente #%d: ", i+1);
+		scanf("%f", &estaturas[i]);
+	}
+	
+	
+	for (i = 0; i < 4; i++) {
+		printf("\n La estatura del paciente # %d %s es %f", i+1,nombres[i], estaturas[i]);
+		
+	}
+	
+	
+	/*
 	char nombre1[40];
 	char nombre2[40];
 	char nombre3[40];
@@ -44,5 +63,8 @@ int main()
 	printf("El paciente #1 %s mide %f metros\n",nombre3, estatura3);
 	printf("El paciente #1 %s mide %f metros\n",nombre4, estatura4);
 	printf("El paciente #1 %s mide %f metros\n",nombre5, estatura5);
+
+*/	
+	printf("\n");
 	return 0;
 }

@@ -1,4 +1,4 @@
-#include <stdio.h>
+git#include <stdio.h>
 //#include<math.h>   op matematicas  P= sqrt(x+1)/pow(y,2);
 int main()
 {
