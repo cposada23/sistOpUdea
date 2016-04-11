@@ -26,7 +26,7 @@ int main() {
     }
     
     
-    wait(NULL);
+    //wait(NULL);//si no espro a que el hijo termine este queda huerfano ..
      /* parent process: just asks for the user input */
      printf("\nParent pid: %d!\n", getpid());
      printf("Parent finish\n");

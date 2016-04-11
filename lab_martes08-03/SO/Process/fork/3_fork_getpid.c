@@ -33,7 +33,7 @@ int main(){
 	else {		/*Parent process */ 
 		/*Parent will wait for the child */
 		
-		pidw = wait(&status);
+		pidw = wait(&status); // Identificador del proceso hijo el que llama al exit 
 		printf("\nPARENT -> pid %d!\n", getpid());
 		
 		
