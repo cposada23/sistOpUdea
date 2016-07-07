@@ -7,6 +7,7 @@
 #include<stdio.h>
 #include<semaphore.h>
 #include<pthread.h>
+#include <unistd.h>
   
 #define N 5
 #define THINKING 0
@@ -40,6 +41,8 @@ int main()
     }
     for(i=0;i<N;i++)
         pthread_join(thread_id[i],NULL);
+    
+    return 0;
 }
   
 void *philospher(void *num)

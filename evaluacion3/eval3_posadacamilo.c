@@ -41,7 +41,7 @@ int main(int argc, char *argv[]) {
     FILE *complejosFile;
     int numComplejos;
     complejo *complejos;
-    int exitValue;
+    int exitVa
     int numProcesos = 3, i;
     pid_t pid_hijo,pid;
     
